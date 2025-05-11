@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "машинное обучение"
+version = "0.1.0"
+description = ""
+authors = ["OchirLG <lidzhigoryaev.ochir47@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+stable-baselines3 = {extras = ["extra"], version = "^2.6.0"}
+huggingface-sb3 = "^3.0"
+gymnasium = {extras = ["other"], version = "^1.1.1"}
+tensorboard = "^2.19.0"
+tqdm = "^4.67.1"
+ipywidgets = "^8.1.7"
+scipy = "^1.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
